@@ -9,7 +9,7 @@ public class Solution {
             sum += num_list[i];
             mul *= num_list[i];
         }
-        //집가고싶다ㅏㅏㅏ
+        //집가고싶다ㅏㅏㅏㅏ
         return mul < (sum * sum) ? 1 : 0;
     }
 }
