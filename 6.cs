@@ -10,6 +10,6 @@ public class Solution {
             mul *= num_list[i];
         }
         
-        return mul < (sum * sum) ? 1 : 0;
+        return mul <= (sum * sum) ? 1 : 0;
     }
 }
